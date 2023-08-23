@@ -1,0 +1,48 @@
+body {
+  background-color: aqua;
+}
+
+#heading {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+#main-container {
+  width: 180px;
+  height: 170px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+}
+
+#main-container:hover {
+  cursor: move;
+}
+
+.sub-container {
+  text-align: center;
+  user-select: none;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  margin-top: 8px;
+  border-radius: 100px;
+  border: 2px solid rgb(23, 154, 255);
+  align-items: center;
+  -webkit-user-drag: none;
+}
+
+.sub-heading {
+  margin-top: 6px;
+  margin-bottom: 5px;
+  color: rgba(54, 53, 53, 0.848);
+}
+
+.para {
+  font-size: 0.6em;
+}
