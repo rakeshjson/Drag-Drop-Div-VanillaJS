@@ -6,21 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Drag & Drop</title>
   <link rel="stylesheet" href="./style.css">
-
 </head>
 
 <body>
   <div id="main-container">
-    <p id="heading">Draggable Div</p>
-    <hr>
+    <h3 id="heading">Click On Me & Drag</h3>
+
 
     <div class="sub-container">
       <img src="../Drag&Drop Using Js/icon-Drag&Drop.png" alt="Mouse Click Image">
       <h4 class="sub-heading">Draggable Div</h4>
-      <p class="para"> This is a Dragable div which is created using HTML, CSS & Jav Script. You can move this DIV
-        anywhere on the document or page</p>
-    </div>
 
+      <p id="color-text">Choose your color </p>
+      <button class="btn-color" id="red" onclick="colorChanger(event)"></button>
+      <button class="btn-color" id="green" onclick="colorChanger(event)"></button>
+      <button class="btn-color" id="yellow" onclick="colorChanger(event)"></button>
+      <button class="btn-color" id="blue" onclick="colorChanger(event)"></button>
+      <button class="btn-color" id="burlywood" onclick="colorChanger(event)"></button> <hr>
+      <button class="btn-rotate" onclick="rotate()"> Click ' 90 ' degrees</button>
+    </div>
   </div>
   <script src="./script.js"></script>
 </body>
